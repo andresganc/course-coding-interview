@@ -5,8 +5,9 @@ PALINDROME
 
 - A palindrome is a word what that read equald of left to right or right to left
 
-Given a word, check if is palindrome
+Exercises: Given a word, check if is palindrome
 
+In: Text
 Out: true or false
 
 Steps
