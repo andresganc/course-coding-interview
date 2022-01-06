@@ -1,8 +1,11 @@
 
 /*
+
 MULTIPLICATION WITHOUT X
 
-- Should multiply without simbol of multiply. Only multiply
+- Should multiply without sign of multiply. Only with the sign plus
+- Should check if is positive or negative  
+- Should have test
 
 int: a(number), b(number)
 out: result(number)
@@ -11,7 +14,10 @@ For Example: 5 x 5 = 25
 Intern Calculate: 5 + 5 + 5 + 5 + 5
 
 Steps
-
+1. Create funtion with arguments num1 - num2
+2. Check if is positive or negative
+3. Logic for multiplication with plus
+4. Do test
 
 */
 
