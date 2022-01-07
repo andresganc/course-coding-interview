@@ -1,5 +1,5 @@
 
-function factorialTS(n: number) {
+function factorialTS(n) {
     if (n === 1) {
         return 1;
     } else {

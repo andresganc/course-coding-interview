@@ -1,5 +1,5 @@
 
-const knowRepeatedWords = ( text: string = '', word: string = '' ) => {
+const knowRepeatedWords = ( text = '', word = '' ) => {
 
     if(!text) return console.warn(`Add the text`)
 

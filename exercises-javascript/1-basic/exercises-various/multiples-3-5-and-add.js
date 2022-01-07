@@ -1,8 +1,8 @@
 
 
-const multiplesAdd = ( numMax: number ) => {
+const multiplesAdd = ( numMax ) => {
 
-    let total: number = 0;
+    let total = 0;
 
     for (let index = 0; index <= numMax; index++) {
         

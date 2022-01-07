@@ -27,9 +27,9 @@ Constraints:
 */
 
 
-const powerOfTwo = ( num: number = 0 ) => {
+const powerOfTwo = ( num ) => {
     
-    let i: number = 1
+    let i = 1
 
     while ( i < num ) {
         i *= 2
