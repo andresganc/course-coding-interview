@@ -1,7 +1,7 @@
 
 const funTextAll = () => {
     
-    let textAll = document.getElementById('text-all').textContent
+    let textAll = document.getElementsByClassName('message-list')
     console.log(textAll)
 
     let textAllCapital = textAll.toUpperCase()
@@ -38,10 +38,19 @@ const addList = () => {
 
     // Create element <li> + Add text
     let elementLi = document.createElement("li")
+    elementLi.className = 'message-list'
     let textAdd = document.createTextNode(textValue)
     elementLi.appendChild(textAdd)
 
     // Add li to ul
     ulList.appendChild(elementLi)
+
+    // Clean input
+    cleanInputs()
+}
+
+const cleanInputs = () => {
+    
+    document.getElementById('input-text').value = ''
 
 }
