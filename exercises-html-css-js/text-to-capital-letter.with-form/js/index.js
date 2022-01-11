@@ -4,29 +4,29 @@ const funTextAll = () => {
     let textAll = document.getElementsByClassName('message-list')
     console.log(textAll)
 
-    let textAllCapital = textAll.toUpperCase()
-    console.log(textAllCapital)
+    //let textAllCapital = textAll.toUpperCase()
+    //console.log(textAllCapital)
+
+    for (let i = 0; i < textAll.length; i++) {
+        
+       textAll[i].style.textTransform = 'uppercase'
+    
+    }
 
 }
 
 
 const funTextFirst = () => {
     
-    let textFirst = document.getElementById('text-first').textContent
+    let textFirst = document.getElementsByClassName('message-list')
     console.log(textFirst)
 
-    let textFirsArray = textFirst.split(' ')
-    new Array(wordsCapital)
-
-    for (let i = 0; i < textFirsArray; i++) {
+    for (let i = 0; i < textFirst.length; i++) {
         
-        let wordsTemp = textFirst.charAt(0).toUpperCase() + textFirsArray.slice(1)
-        
-        wordsCapital.push(wordsTemp)
-    }
+        textFirst[i].style.textTransform = 'capitalize'
+     
+     }
 
-    
-    console.log(wordsCapital)
 
 }
 
